@@ -24,6 +24,6 @@ async def on_message(message):
             data = response.json()[0]
             url = data['url']
             await message.channel.send(url)
-            await asyncio.sleep(10)
+            await asyncio.sleep(300)
 
 client.run('DISCORD_TOKEN')
