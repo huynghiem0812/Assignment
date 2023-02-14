@@ -26,4 +26,4 @@ async def on_message(message):
             await message.channel.send(url)
             await asyncio.sleep(10)
 
-client.run('MTA3MzQ2MjM2NDA1OTQ3MTg5Mg.GA7tdV.Yvj4TS4EI2sPgreFwtG9RPVXN1kqkIOc03HcWA')
+client.run('DISCORD_TOKEN')
