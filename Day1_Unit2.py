@@ -30,5 +30,9 @@ if __name__ == '__main__':
     s = input("String: ")
     i = get_input()
     c = input("Character: ")
-    s_new = mutation(s, int(i), c)
-    print(s_new)
+    if i > len(s):
+        print("The position is out of range")
+    else:
+        s_new = mutation(s, int(i), c)
+        print(s_new)
+    
